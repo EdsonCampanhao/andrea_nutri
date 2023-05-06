@@ -1,0 +1,40 @@
+.menu-hamburguer {
+    width: 60px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+
+.menu-hamburguer div {
+    height: 6px;
+    background-color:rgb(165, 17, 17);
+    border-radius: 15px;
+}
+
+.menu-hamburguer.on div:nth-child(3) {
+    display: none;
+    transition: 0.5s;
+}
+
+.menu-hamburguer.on div:nth-child(2) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -10px;
+    transition: 0.5s;
+}
+
+.menu-hamburguer.on div:nth-child(1) {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 10px;
+    transition: 0.5s;
+}
+@media screen and (min-width:600px) {
+    .menu-hamburguer{
+        display: none;
+    }
+
+    
+}

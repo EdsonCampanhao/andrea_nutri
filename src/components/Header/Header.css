@@ -1,0 +1,173 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 0 0;
+    /* background-color: var(--principal-color); */
+    background-color: bisque;
+}
+.alt {
+    visibility: hidden;
+}
+.lista {
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    color: transparent;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista.on {
+    z-index: 1;
+    position: absolute;
+    padding: 10px;
+    color: aliceblue;
+    align-items: flex-start;
+    width: 30%;
+    height: 250px;
+    background-color: bisque;
+    transition: 0.2s;
+    border-radius: 0 0 100px;   
+}
+.lista.on .menu .lista__lista{
+    opacity: 1;
+    
+}
+.lista__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    opacity: 0;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.lista__lista a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.menu ul li {
+    list-style: none;
+
+}
+
+.header .logo {
+    background-image: url(https:/github.com/EdsonCampanhao.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 150px;
+   margin: 5px 0;
+  
+}
+
+.menu .types-of-furnishings {
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    width: 150px;
+    padding: 12px;
+    z-index: 1;
+
+}
+
+@media screen and (min-width:600px) {
+
+    .lista {
+        position: relative;
+        justify-content: center;
+    }
+
+    .menu ul {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        color: aliceblue;
+        position: relative;
+    }
+
+    .menu ul li {
+        list-style: none;
+
+    }
+
+    .header .logo {
+        top: 0;
+    }
+
+    .header {
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        padding: 0 0 0 10px;
+    }
+
+    .lista {
+        position: relative;
+        background-color: var(--principal-color);
+        width: 100%;
+        justify-content: center;
+    }
+
+    .lista__lista {
+        flex-direction: row;
+        opacity: 1;
+    }
+    .menu .types-of-furnishings {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        padding: 20px;
+        position: absolute;
+        z-index: 1;
+        background-color: var(--principal-color);
+        transition: .7s;
+        opacity: 0;
+        gap: 12px;
+    }
+    .types-of-furnishings.open{
+        opacity:1;
+    }
+
+}
+
+@media screen and (min-width:1040px) {
+    .header {
+        justify-content: center;
+    }
+
+    .menu ul li {
+        font-size: 1.7rem;
+    }
+
+    .header .logo {
+        filter: blur(50%);
+    }
+    .lista__lista {
+        opacity: 1;
+    }
+    #moveis{
+        pointer-events: none;
+    }
+    .lista.on {
+        z-index: 1;
+        position: relative;
+        align-items: unset;
+        width: 100%;
+        height: unset;
+        backdrop-filter:none;
+        transition: 0.2s;
+        border-radius:none;
+    }
+}

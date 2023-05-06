@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Política",
+        "content": " As informações contidas neste domínio possuem caráter informativo. em caso de dúvidas, consulte um profissional de sua confiança. ",
+        "id":1
+    },
+    {
+        "title": "localização",
+        "content": "Rua Viradoura 63 , 2º andar",
+        "id":2
+    },
+    {
+        "title":"siga-nos nas redes sociais",
+        "icons": true,
+        "id":3
+    }
+]
