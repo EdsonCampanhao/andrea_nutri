@@ -1,5 +1,5 @@
 .header {
-    position: fixed;
+   
     top: 0;
     left: 0;
     right: 0;
@@ -9,9 +9,11 @@
     /* background-color: var(--principal-color); */
     background-color: bisque;
 }
+
 .alt {
     visibility: hidden;
 }
+
 .lista {
     position: absolute;
     left: 0;
@@ -33,12 +35,14 @@
     height: 250px;
     background-color: bisque;
     transition: 0.2s;
-    border-radius: 0 0 100px;   
+    border-radius: 0 0 100px;
 }
-.lista.on .menu .lista__lista{
+
+.lista.on .menu .lista__lista {
     opacity: 1;
-    
+
 }
+
 .lista__lista {
     display: flex;
     flex-direction: column;
@@ -50,6 +54,7 @@
     font-weight: 700;
     padding-top: 8px;
 }
+
 .lista__lista a {
     text-decoration: none;
     list-style: none;
@@ -69,8 +74,8 @@
     width: 70px;
     height: 70px;
     background-size: 150px;
-   margin: 5px 0;
-  
+    margin: 5px 0;
+
 }
 
 .menu .types-of-furnishings {
@@ -89,7 +94,13 @@
         position: relative;
         justify-content: center;
     }
-
+    .lista.on {
+        align-items: center;
+        height: 70px;
+        padding: 0;
+        padding-left: 10px;
+       
+    }
     .menu ul {
         display: flex;
         gap: 50px;
@@ -120,10 +131,19 @@
         justify-content: center;
     }
 
+    .lista.on {
+        position: relative;
+        background-color: var(--principal-color);
+        width: 100%;
+        justify-content: center;
+
+    }
+
     .lista__lista {
         flex-direction: row;
         opacity: 1;
     }
+
     .menu .types-of-furnishings {
         display: flex;
         flex-direction: column;
@@ -136,8 +156,9 @@
         opacity: 0;
         gap: 12px;
     }
-    .types-of-furnishings.open{
-        opacity:1;
+
+    .types-of-furnishings.open {
+        opacity: 1;
     }
 
 }
@@ -154,20 +175,23 @@
     .header .logo {
         filter: blur(50%);
     }
+
     .lista__lista {
         opacity: 1;
     }
-    #moveis{
+
+    #moveis {
         pointer-events: none;
     }
+
     .lista.on {
         z-index: 1;
         position: relative;
         align-items: unset;
         width: 100%;
         height: unset;
-        backdrop-filter:none;
+        backdrop-filter: none;
         transition: 0.2s;
-        border-radius:none;
+        border-radius: none;
     }
 }

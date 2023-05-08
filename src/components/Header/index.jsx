@@ -37,7 +37,7 @@ const Header = () => {
                     <nav>
                         <ul className="lista__lista ">
                             {menu.map(item =>
-                                <Link onClick={switchMenu} to={item === 'Inicio' ? '/' : `/${item}`} key={item}>
+                                <Link onClick={switchMenu} to={item === 'inicio' ? '/' : `/${item}`} key={item}>
                                     {item}
                                 </Link>
                             )}
