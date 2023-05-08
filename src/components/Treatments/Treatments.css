@@ -1,0 +1,40 @@
+@import url('../../assets/styles/style.css');
+
+.treatments__container {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 16px 0;
+    margin: 16px 0;
+
+}
+
+.treatments__title {
+    color: var(--principal-color-font);
+}
+
+.treatments__content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    row-gap: 1.5rem;
+}
+
+@media screen and (min-width:1040px) {
+    .treatments__content {
+        margin: 32px 0;
+    }
+
+    .treatments__container {
+        margin: 50px;
+        -webkit-box-shadow: -7px -19px 76px 11px rgba(0,0,0,0.26);
+-moz-box-shadow: -7px -19px 76px 11px rgba(0,0,0,0.26);
+box-shadow: -7px -19px 76px 11px rgba(0,0,0,0.26);    
+border-radius: 15px;   
+    }
+
+}

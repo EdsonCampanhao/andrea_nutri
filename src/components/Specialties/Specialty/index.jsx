@@ -2,7 +2,7 @@ import './Specialty.css'
 
 export default function Specialty(props) {
     return (
-        <div className={`specialty__element ${props.direction}`}>
+        <div className={`specialty__element `}>
             <div className="specialty__icon">
                 <img src={props.icon} alt="Icone de especialidade" />
             </div>

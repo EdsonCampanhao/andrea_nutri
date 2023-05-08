@@ -1,9 +1,11 @@
+@import url('../../assets/styles/style.css');
+
 .about__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding: 16px
+    padding: 16px;
 }
 
 .about__img {
@@ -17,14 +19,7 @@
 }
 
 .about__title {
-    font-size: 2rem;
-    text-align: center;
     margin: 0;
-}
-
-.about__text {
-    font-size: .8rem;
-
 }
 
 @media screen and (min-width:600px) {
@@ -49,15 +44,10 @@
         width: 250px;
         height: 250px;
     }
+
     .about__content {
         width: 60%;
     }
 
-    .about__title {
-        font-size: 3.5rem;
-    }
-    .about__text {
-        font-size: 1.5rem;
-    
-    }
+
 }

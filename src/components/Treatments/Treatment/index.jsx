@@ -1,11 +1,12 @@
+
 import './Treatment.css'
 
 export default function Treatment(props) {
     return (
-        <div className='treatment__container'>
+        <div className='treatment'>
 
-            <div className='treatment__title'>
-                <h3> {props.title} </h3>
+            <div >
+                <h3 className='treatment__title' > {props.title} </h3>
             </div>
 
             <div className='treatment__text'>

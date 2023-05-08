@@ -8,25 +8,25 @@
 .specialties__title {
     text-align: center;
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
+
     align-items: center;
     gap: 16px;
 
 }
 
 @media screen and (min-width:1040px) {
-    .specialties__title {
-        font-size: 2rem;
-    }
-
     .content {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 16px;
         flex-wrap: wrap;
-        max-width: 1040px;
+        margin-bottom: 30px;
+        flex-direction: row;
+
     }
 }

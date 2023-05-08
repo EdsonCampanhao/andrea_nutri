@@ -2,18 +2,19 @@ import Treatment from './Treatment'
 import './Treatments.css'
 export default function Treatments() {
     return (
-        <section className='Treatments__container'>
-            <div className="Treatments__banner">
-                <div className="Treatments__txt"></div>
-                <div className="Treatments__img"></div>
+        <section className='treatments__container'>
+
+            <h2 className="treatments__title">Tratamentos que realizamos</h2>
+
+            <div className="treatments__content">
+
+                <Treatment title='Diabetes' text='' />
+                <Treatment title=' Obesidade' text='' />
+                <Treatment title='Dislipidemia' text='' />
+                <Treatment title='Doença inflamatória intestinal' text='' />
+                <Treatment title='Desportiva' text='' />
+
             </div>
-            <div className="Treatments__content">
-
-                <Treatment title='Diabetes' text='Um nutricionista desempenha um papel fundamental no tratamento da diabetes, 
-        fornecendo orientações e recomendações específicas sobre alimentação saudável para ajudar a controlar os níveis de açúcar no sangue. ' />
-
-            </div>
-
 
         </section>
     )
