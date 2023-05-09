@@ -1,12 +1,16 @@
+@import url('../../assets/styles/style.css');
 .specialties__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    margin: 30px
 }
 
 .specialties__title {
     text-align: center;
+    font-family:var(--title-font) ;
+    font-size: 3rem;
 }
 
 .content {
@@ -25,7 +29,7 @@
         justify-content: center;
         gap: 16px;
         flex-wrap: wrap;
-        margin-bottom: 30px;
+        
         flex-direction: row;
 
     }

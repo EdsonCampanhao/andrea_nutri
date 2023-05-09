@@ -6,7 +6,7 @@
     border-bottom: 1px solid var( --principal-color-font);;
     border-radius: 12px;
     padding-left: 8px;
-    color:white;
+    color:rgb(44, 44, 44);
     transition: 1s;
 }
 .treatment:hover{

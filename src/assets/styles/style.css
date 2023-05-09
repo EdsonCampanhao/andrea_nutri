@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 :root {
-    --primary-color: #BF5468;
+    --primary-color: rgb(244, 219, 250);
     --secundary-color: #BBBF36;
 
 
     --principal-color-font: #F29D35;
     --secundary-color-font: #F25C05;
+
 
     --title-font:    'Dancing Script', 'cursive';
 
