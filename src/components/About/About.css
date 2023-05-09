@@ -38,6 +38,8 @@
 
     .about__container {
         justify-content: space-evenly;
+        max-width: 1040px;
+        margin: 32px auto;
     }
 
     .about__img {
