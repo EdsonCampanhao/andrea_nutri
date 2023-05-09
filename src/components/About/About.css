@@ -1,4 +1,5 @@
 @import url('../../assets/styles/style.css');
+
 .about__container {
     display: flex;
     flex-direction: column;
@@ -7,16 +8,26 @@
     padding: 16px;
 }
 .about__img {
-    background-image: url('../../../public/logo.png');
+    background-image: url('../../assets/img/andreaProfile-removebg-preview.png');
     background-position: center;
-    background-size: 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-color: rgb(244, 219, 250);
     border-radius: 50%;
     mix-blend-mode: color-burn;
     height: 150px;
     width: 150px;
 }
 .about__title {
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 40px;
     margin: 0;
+    text-align: center;
+}
+.about__text{
+    line-height: 1.5;
+    font-family: var(--text-font);
 }
 @media screen and (min-width:600px) {
     .about__container {
