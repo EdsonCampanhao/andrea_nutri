@@ -1,5 +1,4 @@
 @import url('../../assets/styles/style.css');
-
 .about__container {
     display: flex;
     flex-direction: column;
@@ -7,7 +6,6 @@
     gap: 16px;
     padding: 16px;
 }
-
 .about__img {
     background-image: url('../../../public/logo.png');
     background-position: center;
@@ -17,39 +15,29 @@
     height: 150px;
     width: 150px;
 }
-
 .about__title {
     margin: 0;
 }
-
 @media screen and (min-width:600px) {
     .about__container {
         flex-direction: row;
         justify-content: space-between;
     }
-
     .about__content {
         width: 500px;
     }
-
 }
-
 @media screen and (min-width:1040px) {
-
     .about__container {
         justify-content: space-evenly;
         max-width: 1040px;
         margin: 32px auto;
     }
-
     .about__img {
         width: 250px;
         height: 250px;
     }
-
     .about__content {
         width: 60%;
     }
-
-
 }
