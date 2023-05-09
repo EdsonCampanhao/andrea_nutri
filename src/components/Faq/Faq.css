@@ -1,0 +1,15 @@
+.faq{
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (min-width:1040px) {
+
+    .faq{
+        max-width: 1040px;
+        margin: 64px auto;
+    }
+    
+}

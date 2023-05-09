@@ -8,7 +8,12 @@
     align-items: center;
     padding: 16px 0;
     margin: 16px 0;
-
+    margin: 16px 8px;
+    border-radius: 10px;
+    -webkit-box-shadow: -7px -19px 76px 11px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: -7px -19px 76px 11px rgba(0, 0, 0, 0.26);
+    box-shadow: -7px -19px 76px 11px rgba(0, 0, 0, 0.26);
+    border-radius: 15px;
 }
 
 .treatments__title {
@@ -31,10 +36,7 @@
 
     .treatments__container {
         margin: 50px;
-        -webkit-box-shadow: -7px -19px 76px 11px rgba(0,0,0,0.26);
--moz-box-shadow: -7px -19px 76px 11px rgba(0,0,0,0.26);
-box-shadow: -7px -19px 76px 11px rgba(0,0,0,0.26);    
-border-radius: 15px;   
+
     }
 
 }
