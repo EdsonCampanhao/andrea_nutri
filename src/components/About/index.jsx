@@ -5,7 +5,7 @@ export default function About() {
         <section className='about__container'>
             <div className="about__img"></div>
             <div className="about__content">
-                <h1 className="about__title">Andrea barcelos</h1>
+                <h1 className="about__title">Andréa Barcellos</h1>
                 <p className="about__text">
                     Olá!  Sou Nutricionista há mais de 15 anos, formada e especializada pela Universidade Federal Fluminense. Mestre em Atenção a Saúde da Criança
                     e Na área de Terapia Alternativa. Reikiana Nível 2 e Especialista em Terapia Floral, pelo Instituto Brasileiro de  Pesquisas Homeopaticas.
