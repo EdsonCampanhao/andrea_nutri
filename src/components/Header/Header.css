@@ -37,6 +37,7 @@
     background-color:var(--secundary-color);
     transition: 0.2s;
     border-radius: 0 0 100px;
+    top:0
 }
 
 .lista.on .menu .lista__lista {
@@ -101,7 +102,7 @@
         height: 70px;
         padding: 0;
         padding-left: 10px;
-        top: 0px;
+        
        
     }
     .menu ul {
