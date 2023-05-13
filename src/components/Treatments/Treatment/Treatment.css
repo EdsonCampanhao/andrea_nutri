@@ -15,6 +15,7 @@
 .treatment__title{
     font-weight: 300;
     font-size: 1rem;
+    margin: 0;
 }
 @media screen and (min-width:1040px) {
 

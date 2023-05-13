@@ -18,11 +18,11 @@ export default function Specialties() {
 
                 <Specialty icon={icon1} text={'Especialista em saúde e nutrição para tratar condições específicas.'} title={'Especialista em Clínica'} />
 
-                <Specialty icon={icon4} text={'Otimize sua saúde através da alimentação. Trate problemas de saúde de forma natural e eficaz.'} title={'Nutrição funcional'} />
+                <Specialty icon={icon4} text={'Otimize sua saúde através da alimentação. Avaliando sua saúde através de formulários específicos que nortearão a melhor escolha de tratamento.'} title={'Nutrição Funcional'} />
 
-                <Specialty icon={icon3} text={'Maximize seus resultados. Obtenha suporte nutricional específico para suas metas. Potencialize seu desempenho e alcance seus objetivos.'} title={'suplementação'} />
+                <Specialty icon={icon3} text={'Maximize seus resultados. Obtenha suporte nutricional específico para suas metas. Potencialize seu desempenho e alcance seus objetivos.'} title={'Suplementação'} />
 
-                <Specialty icon={icon2} text={'equilíbrio natural para sua saúde. Descubra o poder das plantas medicinais para tratar e prevenir doenças.'} title={'fitoterapia'} />
+                <Specialty icon={icon2} text={'Descubra o poder das plantas medicinais para tratar e prevenir doenças. Invista no equilíbrio natural para sua saúde.'} title={'Fitoterapia'} />
 
             </div>
         </section>
