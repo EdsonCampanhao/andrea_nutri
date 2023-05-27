@@ -6,7 +6,6 @@ export default function Body(props) {
     return (<>
         <header>
             <Header />
-
         </header>
         <main>
             <Outlet />
