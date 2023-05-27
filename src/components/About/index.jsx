@@ -12,8 +12,8 @@ export default function About() {
                     Estou aqui para ajudá-lo(a) a desenvolver um plano de dieta personalizado que se adeque perfeitamente ao seu perfil e aos seus objetivos.
                     Juntos, vamos trabalhar para que você descubra a melhor versão de si mesmo(a), obtendo resultados físicos de nível profissional e, ao mesmo tempo,
                     melhorando sua saúde e autoestima.
-
                 </p>
+                
             </div>
         </section>
     )

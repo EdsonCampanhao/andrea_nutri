@@ -1,0 +1,12 @@
+.icon-wpp{
+    margin: 0 20px 20px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    background-image: url(wppIcon.png);
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
