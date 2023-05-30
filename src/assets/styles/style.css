@@ -9,9 +9,15 @@
     --secundary-color-font: #F25C05;
 
 
-    --title-font:    'Dancing Script', 'cursive';
+    --title-font: 'Dancing Script', 'cursive';
 
 
+}
+
+h1,
+h2 {
+    font-family: var(--title-font);
+    font-size: 3rem;
 }
 
 @media screen and (min-width:1040px) {

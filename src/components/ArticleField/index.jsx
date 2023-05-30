@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import Article from "./Article";
+import './ArticleField.css'
 import articles from './articles.json'
 
 export default function ArticleField() {
@@ -24,21 +25,25 @@ export default function ArticleField() {
         }
         setList(listOfArticles)
     }
-  
-    if(numberOfLoadArticle.current==0){
+
+    if (numberOfLoadArticle.current === 0) {
         loadData()
     }
 
     return (
 
 
-        <section className="articleField">
+        <section >
 
-            {
-                list
-            }
+            <div className="articleField">
 
-            <button onLoad={loadData} onClick={loadData}> carregar mais </button>
+
+                {
+                    list
+                }
+            </div>
+
+            <button className="articleField__button" onLoad={loadData} onClick={loadData}> carregar mais </button>
 
         </section>
 
