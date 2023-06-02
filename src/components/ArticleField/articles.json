@@ -1,45 +1,53 @@
 [
     {
+        
+         "id":1,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     },
     {
+         "id":2,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     },
     {
+         "id":3,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     },
     {
+         "id":4,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     },
     {
+         "id":5,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     },
     {
+         "id":6,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     },
     {
+         "id":7,
         "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do bonitão",
-        "title": "cara mais gato da terra",
-        "intro": "encontrado homem mais seduzente do brasil"
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
     }
    
 ]
