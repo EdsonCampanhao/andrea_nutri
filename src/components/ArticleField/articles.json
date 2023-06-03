@@ -1,6 +1,13 @@
 [
     {
         
+         "id":0,
+        "img": "https://github.com/EdsonCampanhao.png",
+        "alt": "foto do gabriel",
+        "title": "dev diferenciado",
+        "intro": "rapaz de 24 anos tenta melhorar como dev"
+    },
+    {
          "id":1,
         "img": "https://github.com/EdsonCampanhao.png",
         "alt": "foto do gabriel",
@@ -37,13 +44,6 @@
     },
     {
          "id":6,
-        "img": "https://github.com/EdsonCampanhao.png",
-        "alt": "foto do gabriel",
-        "title": "dev diferenciado",
-        "intro": "rapaz de 24 anos tenta melhorar como dev"
-    },
-    {
-         "id":7,
         "img": "https://github.com/EdsonCampanhao.png",
         "alt": "foto do gabriel",
         "title": "dev diferenciado",

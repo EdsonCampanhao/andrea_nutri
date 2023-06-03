@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import Article from "./Article";
 import './ArticleField.css'
 import articles from './articles.json'
-import { Link, NavLink, Navigate, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -14,14 +14,6 @@ export default function ArticleField() {
     const numberOfLoadArticle = useRef(0)
 
 
-    const navigate = (route) => {
-
-
-        return <Navigate to={route}></Navigate>;
-
-
-
-    }
 
     const loadData = () => {
         numberOfLoadArticle.current = numberOfLoadArticle.current + 3
@@ -32,15 +24,13 @@ export default function ArticleField() {
 
             var currentArticle = articles[i]
             var art =
-                <NavLink to={`/${currentArticle.id}`}>
+                <Link to={`${currentArticle.id}`} key={i}>
                     <Article
-
-                        key={i}
                         img={currentArticle.img}
                         alt={currentArticle.alt}
                         title={currentArticle.title}
                         intro={currentArticle.intro}
-                    /></NavLink>;
+                    /></Link>;
 
             listOfArticles.push(art)
 
