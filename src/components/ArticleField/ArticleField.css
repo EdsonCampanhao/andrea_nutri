@@ -4,6 +4,7 @@
     align-items: center;
     gap: 36px;
     padding: 50px;
+    
 }
 
 .articleField__button {
@@ -34,6 +35,8 @@
     .articleField {
         padding: 0;
         margin: 50px 0;
+        max-width: 1040px;
+        margin: 36px auto;
     }
 
     .articleField__button:hover {

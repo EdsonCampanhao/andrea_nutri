@@ -24,7 +24,7 @@ export default function ArticleField() {
 
             var currentArticle = articles[i]
             var art =
-                <Link to={`${currentArticle.id}`} key={i}>
+                <Link style={{textDecoration: 'none'}} to={`${currentArticle.id}`} key={i}>
                     <Article
                         img={currentArticle.img}
                         alt={currentArticle.alt}

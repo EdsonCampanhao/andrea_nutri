@@ -1,0 +1,24 @@
+
+h1,h2 {
+   
+}
+p{
+    font-size: 20px;
+}
+.currentArticle{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 36px auto;
+    max-width:  1040px; 
+    text-align: center;
+}
+.currentArticle__capa{
+
+    width: 100%;
+    height: 350px;
+    margin: 50px 0;
+    border-radius: 15px;
+
+}

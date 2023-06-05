@@ -1,0 +1,12 @@
+.MuiPaper-root,.MuiPaper-elevation,.MuiPaper-rounded,.MuiPaper-elevation1,.MuiCard-root,.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+text-decoration: none;
+}
+.article{
+    height: 350px;
+    width: 300px;
+    transition: 1s;
+}
+.article:hover{
+    transform: scale(1.1);
+    transition: .7s;
+}
