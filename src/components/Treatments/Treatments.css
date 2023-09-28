@@ -15,6 +15,7 @@
 
 .treatments__title {
     color: var(--principal-color-font);
+    text-align: center;
 }
 
 .treatments__content {

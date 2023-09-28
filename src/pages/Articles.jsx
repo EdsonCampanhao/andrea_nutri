@@ -1,5 +1,4 @@
 
-import { BiSearchAlt } from 'react-icons/bi';
 import ArticleField from '../components/ArticleField';
 import '../../src/assets/styles/articles.css';
 import '../../src/assets/styles/style.css';
