@@ -5,7 +5,7 @@ import './MenuIcon.css'
 
 const Header = () => {
 
-    const menu = ['inicio', 'exames', 'artigos'];
+    const menu = ['inicio', 'artigos'];
 
     const switchMenu = (event) => {
 

@@ -1,6 +1,7 @@
 @import url('../../../assets/styles/style.css');
 .treatment{
     background-color:var(--primary-color);
+    height: 120px;
     width: 300px;
     border-left: 1px solid var( --principal-color-font);;
     border-bottom: 1px solid var( --principal-color-font);;
@@ -17,12 +18,13 @@
     font-size: 1rem;
     margin: 0;
 }
+.treatment__title h2{
+    text-align: center;
+}
+.treatment__text p{
+    margin:0;
+}
 @media screen and (min-width:1040px) {
-
-    .treatment{
-        width: 300px;
-        height: 100px;
-    }
     .treatment__title{
         font-size: 1.5rem;
     }

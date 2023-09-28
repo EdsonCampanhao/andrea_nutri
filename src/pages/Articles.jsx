@@ -21,8 +21,7 @@ export default function Articles() {
             <div className='article__header-container'>
 
                 <h1 className='article_header-title'>artigos</h1>
-
-                <label ><div className='article__header-searchfield'> <input className='article__header-input' type="text" placeholder='Pesquisar artigo...' /> <BiSearchAlt /></div></label>
+                
             </div>
 
             <ArticleField />
