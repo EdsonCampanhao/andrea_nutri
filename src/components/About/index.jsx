@@ -7,13 +7,22 @@ export default function About() {
             <div className="about__content">
                 <h1 className="about__title">Andréa Barcellos</h1>
                 <p className="about__text">
-                    Olá!  Sou Nutricionista há mais de 15 anos, formada e especializada pela Universidade Federal Fluminense. Mestre em Atenção a Saúde da Criança
-                    e Na área de Terapia Alternativa. Reikiana Nível 2 e Especialista em Terapia Floral, pelo Instituto Brasileiro de  Pesquisas Homeopaticas.
-                    Estou aqui para ajudá-lo(a) a desenvolver um plano de dieta personalizado que se adeque perfeitamente ao seu perfil e aos seus objetivos.
-                    Juntos, vamos trabalhar para que você descubra a melhor versão de si mesmo(a), obtendo resultados físicos de nível profissional e, ao mesmo tempo,
-                    melhorando sua saúde e autoestima.
+                    Olá! Sou Nutricionista há mais de 15 anos, formada e especializada
+                    a nível de Mestrado pela Universidade Federal Fluminense. Atuo na
+                    área de Saúde Funcional, Gastrointestinal, Obesidade, Alergias
+                    Alimentares, Diabetes, Hipertensão, Desporto.
+                    Utilizando ferramentas de Avaliação Nutricional, ajudo pessoas a
+                    desenvolver um plano de dieta personalizado que se adeque
+                    perfeitamente ao seu perfil e aos seus objetivos.
+                    Sou Especialista em Terapia Floral, pelo Instituto Brasileiro de
+                    Pesquisas Homeopáticas e Reikiana Nível 2, essas formações me
+                    proporcionam um diferencial para melhor conduzir o seu
+                    tratamento nos momentos em que há necessidade de um olhar
+                    mais interiorizado. Conte comigo para que juntos possamos
+                    descobrir em você a sua melhor versão e então, atingir os
+                    resultados físicos desejados, elevando sua saúde e autoestima.
                 </p>
-                
+
             </div>
         </section>
     )
