@@ -21,7 +21,7 @@ export default function Specialties() {
 
                 <Specialty icon={icon4} text={'Otimize sua saúde através da alimentação. Avaliando sua saúde através de formulários específicos que nortearão a melhor escolha de tratamento.'} title={'Nutrição Funcional'} />
 
-                <Specialty icon={icon5} text={' Essências florais que atuam na prevenção, no tratamento e na manutenção do equilíbrio emocional e psicológico'} title={'REIKI'} />
+                <Specialty icon={icon5} text={' Essências florais que atuam na prevenção, no tratamento e na manutenção do equilíbrio emocional e psicológico'} title={'Reiki'} />
                
                 <Specialty icon={icon3} text={'Maximize seus resultados. Obtenha suporte nutricional específico para suas metas. Potencialize seu desempenho e alcance seus objetivos.'} title={'Suplementação'} />
 
